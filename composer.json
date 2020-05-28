@@ -1,0 +1,22 @@
+{
+    "name": "solwin/flickr",
+    "description": "Flickr Widget is a free Magento 2 extension. It will easily integrate Flickr gallery with your online store. It will display the latest feed of your Flickr page on your store. It is user friendly and fully customized extension.",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Flickr\\": ""
+        }
+    }
+}
